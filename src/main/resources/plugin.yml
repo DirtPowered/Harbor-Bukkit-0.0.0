@@ -1,0 +1,17 @@
+name: HarborLegacy
+description: Harbor is a Spigot plugin that redefines how sleep works in your server, making it easier for all the online players to get in bed quickly and skip through the night!
+main: xyz.nkomarn.Harbor.HarborLegacy
+version: LEGACY
+author: TechToolbox (@nkomarn)
+website: https://nkomarn.xyz
+
+commands:
+  harbor:
+    description: "Base command for Harbor!"
+    usage: "/harbor [subcommand]"
+
+permissions:
+  harbor.ignored:
+    default: false
+  harbor.admin:
+    default: op
